@@ -1,0 +1,87 @@
+{
+  "note": "Demo artwork generated from Unsplash photographs (Unsplash licence). Replace with real product photography before launch.",
+  "designs": [
+    {
+      "slug": "teply-vzglyad",
+      "source": "https://images.unsplash.com/photo-1517849845537-4d257902454a"
+    },
+    {
+      "slug": "domashniy-uyut",
+      "source": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131"
+    },
+    {
+      "slug": "nad-oblakami",
+      "source": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4"
+    },
+    {
+      "slug": "lesnaya-tropa",
+      "source": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+    },
+    {
+      "slug": "podsolnuhi",
+      "source": "https://images.unsplash.com/photo-1455659817273-f96807779a8a"
+    },
+    {
+      "slug": "solnechnyy-sad",
+      "source": "https://images.unsplash.com/photo-1490750967868-88aa4486c946"
+    },
+    {
+      "slug": "gorodskoy-ritm",
+      "source": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000"
+    },
+    {
+      "slug": "sobornaya-ploshchad",
+      "source": "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1"
+    },
+    {
+      "slug": "ulybka",
+      "source": "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+    },
+    {
+      "slug": "v-kraskah",
+      "source": "https://images.unsplash.com/photo-1541961017774-22349e4a1262"
+    },
+    {
+      "slug": "prazdnik-krasok",
+      "source": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9"
+    },
+    {
+      "slug": "rozovyy-vecher",
+      "source": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7"
+    }
+  ],
+  "lifestyle": [
+    {
+      "slug": "floral-hoop",
+      "source": "https://images.unsplash.com/photo-1771555739335-95ea325f29d2"
+    },
+    {
+      "slug": "pattern-hoop",
+      "source": "https://images.unsplash.com/photo-1771555739342-94a08cacb227"
+    },
+    {
+      "slug": "threads",
+      "source": "https://images.unsplash.com/photo-1605743970487-c2c58adbdfba"
+    },
+    {
+      "slug": "supplies",
+      "source": "https://images.unsplash.com/photo-1586037606448-71374cac38f8"
+    },
+    {
+      "slug": "sewing-hands",
+      "source": "https://images.unsplash.com/photo-1568288796918-03e7d93306bd"
+    },
+    {
+      "slug": "gift-heart",
+      "source": "https://images.unsplash.com/photo-1771409046945-917ec1c2e25a"
+    },
+    {
+      "slug": "yarn",
+      "source": "https://images.unsplash.com/photo-1584992236310-6edddc08acff"
+    },
+    {
+      "slug": "pattern-2",
+      "source": "https://images.unsplash.com/photo-1771585654998-23fe43d8b4c6"
+    }
+  ]
+}
