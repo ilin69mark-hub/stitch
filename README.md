@@ -23,7 +23,7 @@ cp .env.example .env.local
 pnpm dev
 ```
 
-Откройте `http://localhost:3000`. Без переменных окружения магазин работает в демонстрационном режиме: онлайн-оплата отключена, заказ сохраняется со статусом «ожидает оплаты», деньги не списываются.
+Откройте `http://localhost:3001`. Без переменных окружения магазин работает в демонстрационном режиме: онлайн-оплата отключена, заказ сохраняется со статусом «ожидает оплаты», деньги не списываются.
 
 ## Управление через Makefile
 
@@ -48,7 +48,7 @@ make docker-logs    # логи контейнера
 make docker-down    # остановка и удаление контейнера
 ```
 
-`make up` и `make prod` запускают сервер в фоне и печатают адрес и порт. Порт по умолчанию — `3000`, изменить можно так:
+`make up` и `make prod` запускают сервер в фоне и печатают адрес и порт. Порт по умолчанию — `3001`, изменить можно так:
 
 ```bash
 make up PORT=8080
@@ -73,7 +73,7 @@ docker build \
 
 ```bash
 docker run -d --name stezhok \
-  -p 3000:3000 \
+  -p 3001:3000 \
   -v stezhok-data:/data \
   --env-file .env.local \
   -e DATA_DIR=/data \
@@ -84,7 +84,7 @@ docker run -d --name stezhok \
 
 ```bash
 docker logs -f stezhok
-curl http://localhost:3000/api/payments/config
+curl http://localhost:3001/api/payments/config
 ```
 
 Остановка и удаление (том с заказами и фото сохраняется):
@@ -168,7 +168,7 @@ Webhook:
 
 ```bash
 curl -H "Authorization: Bearer $ADMIN_TOKEN" \
-  "http://localhost:3000/api/admin/orders"
+  "http://localhost:3001/api/admin/orders"
 ```
 
 Также поддерживается `?token=...`. Если `ADMIN_TOKEN` не задан, маршруты отключены. Для production используйте только HTTPS и не передавайте токен в логах/реферере.

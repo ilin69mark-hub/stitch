@@ -35,7 +35,7 @@ export function plural(
 export function absoluteUrl(path: string): string {
   const base =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
-    "http://localhost:3000";
+    "http://localhost:3001";
   return `${base}${path.startsWith("/") ? path : `/${path}`}`;
 }
 

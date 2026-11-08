@@ -6,7 +6,7 @@ export const siteConfig = {
     "Наборы для вышивания по клеткам: готовые дизайны и картины по вашей фотографии. Выберите размер и комплектацию, рассчитайте стоимость и оформите заказ.",
   shortDescription:
     "Готовые схемы и вышивка по фото: наборы для творчества и подарков.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3001",
   locale: "ru_RU",
   email: "hello@stezhok.example",
   phone: null as string | null,

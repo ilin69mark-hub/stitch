@@ -2,12 +2,12 @@ SHELL := /bin/bash
 .DEFAULT_GOAL := help
 
 # ── Настройки ────────────────────────────────────────────────────────────────
-PORT ?= 3000
+PORT ?= 3001
 HOST ?= localhost
 RUN_LOG ?= /tmp/stezhok.log
 RUN_PID ?= /tmp/stezhok.pid
 
-DOCKER_PORT ?= 3000
+DOCKER_PORT ?= 3001
 IMAGE ?= stezhok
 CONTAINER ?= stezhok
 VOLUME ?= stezhok-data
