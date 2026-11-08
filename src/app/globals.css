@@ -23,6 +23,7 @@
 
   --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  --font-heading: var(--font-nunito), ui-rounded, "Nunito", sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
 
   --radius-xs: 6px;

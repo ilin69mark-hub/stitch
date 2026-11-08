@@ -1,0 +1,21 @@
+.embroidered-title {
+  position: relative;
+}
+
+.embroidered-title__art {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  line-height: 0;
+}
+
+/*
+ * Пока вышивка не построена, виден обычный текст. После построения текст
+ * остаётся в потоке и в доступном дереве, но скрывается под вышивкой —
+ * габариты заголовка и его читаемость для скринридеров не меняются.
+ */
+.embroidered-title--ready .embroidered-title__text,
+.embroidered-title--ready .embroidered-title__text em {
+  color: transparent;
+}

@@ -4,6 +4,7 @@ import { buttonVariants } from "@/components/ui/button";
 import DisintegratingGallery, {
   type GalleryImage,
 } from "@/components/effects/disintegrating-gallery";
+import EmbroideredTitle from "@/components/effects/embroidered-title";
 import { cn } from "@/lib/utils";
 
 const heroImages: GalleryImage[] = [
@@ -66,10 +67,10 @@ export function Hero() {
         <div className="grid items-end gap-10 lg:grid-cols-[1fr_320px] lg:gap-16">
           <div>
             <p className="eyebrow">Наборы для вышивания по клеткам</p>
-            <h1 className="mt-5 max-w-[13ch] text-balance font-serif text-[3.3rem] leading-[0.92] tracking-[-0.035em] text-espresso sm:text-[4.8rem] lg:text-[6.2rem]">
+            <EmbroideredTitle className="mt-5 max-w-[13ch] text-balance font-heading text-[3.3rem] font-bold leading-[0.92] tracking-[-0.035em] text-espresso sm:text-[4.8rem] lg:text-[6.2rem]">
               Ваша фотография —{" "}
               <em className="font-normal italic text-terracotta">в стежках</em>
-            </h1>
+            </EmbroideredTitle>
             <p className="mt-6 max-w-xl text-[15px] leading-relaxed text-muted-foreground sm:text-base">
               Готовый дизайн или схема по вашему снимку. Выберите размер,
               комплектацию и упаковку — стоимость появится сразу, без звонка и

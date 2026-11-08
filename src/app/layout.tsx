@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Cormorant_Garamond, Manrope } from "next/font/google";
+import { Cormorant_Garamond, Manrope, Nunito } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/providers";
 import { Header } from "@/components/site/header";
@@ -16,6 +16,15 @@ const manrope = Manrope({
 const cormorant = Cormorant_Garamond({
   subsets: ["cyrillic", "latin"],
   variable: "--font-cormorant",
+  display: "swap",
+  style: ["normal", "italic"],
+});
+
+// Шрифт вышитого заголовка: округлые формы и полная кириллица
+// (Fredoka на Google Fonts кириллицы не поддерживает).
+const nunito = Nunito({
+  subsets: ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  variable: "--font-nunito",
   display: "swap",
   style: ["normal", "italic"],
 });
@@ -93,7 +102,10 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="ru" className={cn(manrope.variable, cormorant.variable)}>
+    <html
+      lang="ru"
+      className={cn(manrope.variable, cormorant.variable, nunito.variable)}
+    >
       <body className="min-h-dvh font-sans">
         <Providers>
           <a
